@@ -1,0 +1,62 @@
+{
+  "id": "ancient",
+  "name": "Ancient",
+  "radarImage": "images/maps/ancient.svg",
+  "_comment": "Template stub -- copy the pattern from mirage.json to flesh this map out with more positions, lineups and strategies.",
+  "positions": [
+    {
+      "id": "t_spawn",
+      "name": "T Spawn"
+    },
+    {
+      "id": "mid",
+      "name": "Mid"
+    },
+    {
+      "id": "donut",
+      "name": "Donut"
+    },
+    {
+      "id": "a_site",
+      "name": "A Site"
+    },
+    {
+      "id": "b_site",
+      "name": "B Site"
+    }
+  ],
+  "positionCoords": {
+    "t_spawn": {
+      "x": 50,
+      "y": 90
+    },
+    "mid": {
+      "x": 50,
+      "y": 55
+    },
+    "donut": {
+      "x": 62,
+      "y": 35
+    },
+    "a_site": {
+      "x": 78,
+      "y": 22
+    },
+    "b_site": {
+      "x": 22,
+      "y": 22
+    }
+  },
+  "lineups": [
+    {
+      "id": "ancient_l001",
+      "positionId": "mid",
+      "type": "smoke",
+      "title": "Mid Smoke to Donut",
+      "description": "Blocks the donut angle so your team can take mid control on the way to either site.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "strategies": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "dust2",
+  "name": "Dust II",
+  "radarImage": "images/maps/dust2.svg",
+  "_comment": "Template stub -- copy the pattern from mirage.json to flesh this map out with more positions, lineups and strategies.",
+  "positions": [
+    {
+      "id": "t_spawn",
+      "name": "T Spawn"
+    },
+    {
+      "id": "long",
+      "name": "Long Doors"
+    },
+    {
+      "id": "mid",
+      "name": "Mid"
+    },
+    {
+      "id": "a_site",
+      "name": "A Site"
+    },
+    {
+      "id": "b_site",
+      "name": "B Site"
+    }
+  ],
+  "positionCoords": {
+    "t_spawn": {
+      "x": 50,
+      "y": 90
+    },
+    "long": {
+      "x": 70,
+      "y": 55
+    },
+    "mid": {
+      "x": 50,
+      "y": 50
+    },
+    "a_site": {
+      "x": 78,
+      "y": 22
+    },
+    "b_site": {
+      "x": 22,
+      "y": 22
+    }
+  },
+  "lineups": [
+    {
+      "id": "dust2_l001",
+      "positionId": "long",
+      "type": "smoke",
+      "title": "CT Smoke from Long",
+      "description": "Blocks the pit/CT sightline down long so your team can take doors safely.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "strategies": [],
+  "unsorted": [
+    "images/lineups/dust2_unsorted_1795275436900_4.png",
+    "images/lineups/dust2_unsorted_1795275436898_3.png",
+    "images/lineups/dust2_unsorted_1795275436896_2.png",
+    "images/lineups/dust2_unsorted_1795275436895_1.png",
+    "images/lineups/dust2_unsorted_1795275436892_0.png",
+    "images/lineups/dust2_unsorted_1795207127078_0.png"
+  ]
+}

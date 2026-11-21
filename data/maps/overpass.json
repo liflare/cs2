@@ -1,0 +1,62 @@
+{
+  "id": "overpass",
+  "name": "Overpass",
+  "radarImage": "images/maps/overpass.svg",
+  "_comment": "Template stub -- copy the pattern from mirage.json to flesh this map out with more positions, lineups and strategies.",
+  "positions": [
+    {
+      "id": "t_spawn",
+      "name": "T Spawn"
+    },
+    {
+      "id": "bathrooms",
+      "name": "Bathrooms"
+    },
+    {
+      "id": "monster",
+      "name": "Monster"
+    },
+    {
+      "id": "a_site",
+      "name": "A Site"
+    },
+    {
+      "id": "b_site",
+      "name": "B Site"
+    }
+  ],
+  "positionCoords": {
+    "t_spawn": {
+      "x": 50,
+      "y": 90
+    },
+    "bathrooms": {
+      "x": 65,
+      "y": 55
+    },
+    "monster": {
+      "x": 30,
+      "y": 45
+    },
+    "a_site": {
+      "x": 75,
+      "y": 22
+    },
+    "b_site": {
+      "x": 22,
+      "y": 22
+    }
+  },
+  "lineups": [
+    {
+      "id": "overpass_l001",
+      "positionId": "bathrooms",
+      "type": "smoke",
+      "title": "Bathrooms Smoke to Site",
+      "description": "Blocks the site sightline out of bathrooms during an A execute.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "strategies": []
+}

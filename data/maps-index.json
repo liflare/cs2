@@ -1,0 +1,11 @@
+[
+  { "id": "mirage",   "name": "Mirage",   "thumb": "images/maps/mirage.jpg" },
+  { "id": "inferno",  "name": "Inferno",  "thumb": "images/maps/inferno.svg" },
+  { "id": "ancient",  "name": "Ancient",  "thumb": "images/maps/ancient.svg" },
+  { "id": "anubis",   "name": "Anubis",   "thumb": "images/maps/anubis.png" },
+  { "id": "vertigo",  "name": "Vertigo",  "thumb": "images/maps/vertigo.svg" },
+  { "id": "nuke",     "name": "Nuke",     "thumb": "images/maps/nuke.svg" },
+  { "id": "overpass", "name": "Overpass", "thumb": "images/maps/overpass.svg" },
+  { "id": "dust2",    "name": "Dust II",  "thumb": "images/maps/dust2.svg" },
+  { "id": "cache",    "name": "Cache",  "thumb": "images/maps/cache.png" }
+]

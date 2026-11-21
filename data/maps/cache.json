@@ -1,0 +1,256 @@
+{
+  "id": "cache",
+  "name": "Cache",
+  "radarImage": "images/maps/cache.png",
+  "positions": [
+    {
+      "id": "a_base",
+      "name": "фаст смоки на а"
+    },
+    {
+      "id": "flash_b_ct",
+      "name": "флеш с кт"
+    },
+    {
+      "id": "b_raskid",
+      "name": "молик под вент"
+    },
+    {
+      "id": "podiem",
+      "name": "подъем"
+    },
+    {
+      "id": "mid_moly_in_box",
+      "name": "молик на бокс"
+    },
+    {
+      "id": "molotov_in_boost",
+      "name": "молик на буст"
+    },
+    {
+      "id": "t_spawn",
+      "name": "т спавн"
+    },
+    {
+      "id": "he",
+      "name": "he"
+    },
+    {
+      "id": "mid",
+      "name": "прострел"
+    },
+    {
+      "id": "ct_main",
+      "name": "мейн смок глубокий"
+    },
+    {
+      "id": "a_raskid",
+      "name": "а раскид"
+    },
+    {
+      "id": "b_prostrel",
+      "name": "прострел"
+    },
+    {
+      "id": "b_smoke",
+      "name": "б смок"
+    }
+  ],
+  "positionCoords": {
+    "a_raskid": {
+      "x": 66,
+      "y": 21
+    },
+    "b_prostrel": {
+      "x": 62,
+      "y": 65
+    },
+    "b_smoke": {
+      "x": 65,
+      "y": 80
+    },
+    "ct_main": {
+      "x": 21,
+      "y": 5
+    },
+    "mid": {
+      "x": 21,
+      "y": 5
+    },
+    "he": {
+      "x": 60,
+      "y": 45
+    },
+    "t_spawn": {
+      "x": 94,
+      "y": 59
+    },
+    "molotov_in_boost": {
+      "x": 21,
+      "y": 60
+    },
+    "mid_moly_in_box": {
+      "x": 55,
+      "y": 45
+    },
+    "podiem": {
+      "x": 63,
+      "y": 28
+    },
+    "b_raskid": {
+      "x": 58,
+      "y": 87
+    },
+    "flash_b_ct": {
+      "x": 11,
+      "y": 61
+    },
+    "a_base": {
+      "x": 79,
+      "y": 55
+    }
+  },
+  "lineups": [
+    {
+      "id": "fast_smokes",
+      "positionId": "a_base",
+      "type": "smoke",
+      "title": "фаст смоки",
+      "description": "1 ближний - кидать правее от середины трубы до начала крыши. \n2 дальний - целиться по середине на верхнюю часть трубы и потом добегая до середины трубы или раньше отпускать",
+      "video": "",
+      "image": "images/lineups/cache_fast_smokes.png",
+      "image2": "images/lineups/cache_fast_smokes_2.png",
+      "image3": "images/lineups/cache_fast_smokes_3.png",
+      "image4": "images/lineups/cache_fast_smokes_4.png"
+    },
+    {
+      "id": "flash_ct_cache",
+      "positionId": "flash_b_ct",
+      "type": "flash",
+      "title": "флеш кт",
+      "description": "флеш против раша на б с кт",
+      "video": "",
+      "image": "images/lineups/cache_flash_ct_cache.png"
+    },
+    {
+      "id": "moly_under_vent",
+      "positionId": "b_raskid",
+      "type": "molotov",
+      "title": "смок под венты",
+      "description": "нужно кинуть с разбега после зеленой стены",
+      "video": "",
+      "image": "images/lineups/cache_moly_under_vent.png",
+      "image2": "images/lineups/cache_moly_under_vent_2.png"
+    },
+    {
+      "id": "podien_vent",
+      "positionId": "podiem",
+      "type": "molotov",
+      "title": "молотов в вент",
+      "description": "сложная раскидка поэтому нужно найти свои ориентиры в игре для бросания",
+      "video": "",
+      "image": "images/lineups/cache_podien_vent.png",
+      "image2": "images/lineups/cache_podien_vent_2.png",
+      "image3": "images/lineups/cache_podien_vent_3.png"
+    },
+    {
+      "id": "moly_box_cache",
+      "positionId": "mid_moly_in_box",
+      "type": "molotov",
+      "title": "молик на бокс мид",
+      "description": "кидать по ориентиру, присесть на краю крыши",
+      "video": "",
+      "image": "images/lineups/cache_moly_box_cache.png",
+      "image2": "images/lineups/cache_moly_box_cache_2.png",
+      "image3": "images/lineups/cache_moly_box_cache_3.png"
+    },
+    {
+      "id": "moly_in_boost",
+      "positionId": "molotov_in_boost",
+      "type": "molotov",
+      "title": "молик на буст",
+      "description": "с двух кнопок нужно кинуть молик по ориентиру",
+      "video": "",
+      "image": "images/lineups/cache_moly_in_boost.png"
+    },
+    {
+      "id": "t_smoke_window_cache",
+      "positionId": "t_spawn",
+      "type": "smoke",
+      "title": "смок окно",
+      "description": "смок окно с прыжка и разбега",
+      "video": "",
+      "image": "images/lineups/cache_t_smoke_window_cache.png",
+      "image2": "images/lineups/cache_t_smoke_window_cache_2.png"
+    },
+    {
+      "id": "he_cache1",
+      "positionId": "he",
+      "type": "he",
+      "title": "хае мид",
+      "description": "хае на box в миду",
+      "video": "",
+      "image": "images/lineups/cache_he_cache1.png",
+      "image2": "images/lineups/cache_he_cache1_2.png"
+    },
+    {
+      "id": "ct_main_yellow",
+      "positionId": "ct_main",
+      "type": "smoke",
+      "title": "мейн смок глубокий",
+      "description": "глубокий смок в мейн для отжатия мейна под флкеш",
+      "video": "",
+      "image": "images/lineups/cache_ct_main_yellow.png",
+      "image2": "images/lineups/cache_ct_main_yellow_2.png"
+    },
+    {
+      "id": "3",
+      "positionId": "a_raskid",
+      "type": "smoke",
+      "title": "смок а",
+      "description": "раскид а базы",
+      "video": "",
+      "image": "images/lineups/cache_3.png",
+      "image2": "images/lineups/cache_3_2.png",
+      "image3": "images/lineups/cache_3_3.png",
+      "image4": "images/lineups/cache_3_4.png"
+    },
+    {
+      "id": "2",
+      "positionId": "b_prostrel",
+      "type": "smoke",
+      "title": "прострел!",
+      "description": "прострел из гаража за т сторону",
+      "video": "",
+      "image": "images/lineups/cache_2.png",
+      "image2": "images/lineups/cache_2_2.png"
+    },
+    {
+      "id": "1",
+      "positionId": "b_smoke",
+      "type": "smoke",
+      "title": "смок б",
+      "description": "смок от мейна б и от 9",
+      "video": "",
+      "image": "images/lineups/cache_1.png",
+      "image2": "images/lineups/cache_1_2.png"
+    }
+  ],
+  "unsorted": [
+    "images/lineups/cache_unsorted_1795205098252_2.png",
+    "images/lineups/cache_unsorted_1795205098251_1.png",
+    "images/lineups/cache_unsorted_1795205098247_0.png",
+    "images/lineups/cache_unsorted_1795204943061_1.png",
+    "images/lineups/cache_unsorted_1795204943059_0.png",
+    "images/lineups/cache_unsorted_1795204841238_0.png",
+    "images/lineups/cache_unsorted_1795204727430_0.png",
+    "images/lineups/cache_unsorted_1795204658761_0.png",
+    "images/lineups/cache_unsorted_1795204526953_2.png",
+    "images/lineups/cache_unsorted_1795204526952_1.png",
+    "images/lineups/cache_unsorted_1795204526949_0.png",
+    "images/lineups/cache_unsorted_1795204071927_3.png",
+    "images/lineups/cache_unsorted_1795204071925_2.png",
+    "images/lineups/cache_unsorted_1795204071924_1.png",
+    "images/lineups/cache_unsorted_1795204071921_0.png"
+  ]
+}

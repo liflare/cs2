@@ -1,0 +1,410 @@
+{
+  "id": "mirage",
+  "name": "Mirage",
+  "radarImage": "images/maps/mirage.jpg",
+  "_comment_positions": "x/y are PERCENTAGES (0-100) measured from the top-left corner of radarImage. Add a new position by copying one block and giving it a unique id.",
+  "positions": [
+    {
+      "id": "t_spawn",
+      "name": "Т-Спавн"
+    },
+    {
+      "id": "palace",
+      "name": "Паласы"
+    },
+    {
+      "id": "ramp",
+      "name": "Рампа"
+    },
+    {
+      "id": "mid",
+      "name": "окно / мид"
+    },
+    {
+      "id": "a_site",
+      "name": "а сайт"
+    },
+    {
+      "id": "underpass",
+      "name": "Подземка (Андер)"
+    },
+    {
+      "id": "apps",
+      "name": "Апартаменты (Ковры)"
+    },
+    {
+      "id": "b_site",
+      "name": "Плент Б"
+    },
+    {
+      "id": "catwalk",
+      "name": "парапед"
+    },
+    {
+      "id": "top_mid",
+      "name": "топ мид"
+    },
+    {
+      "id": "raskid",
+      "name": "молики_а"
+    }
+  ],
+  "positionCoords": {
+    "t_spawn": {
+      "x": 88,
+      "y": 35
+    },
+    "palace": {
+      "x": 68,
+      "y": 66
+    },
+    "ramp": {
+      "x": 65,
+      "y": 50
+    },
+    "mid": {
+      "x": 85,
+      "y": 20
+    },
+    "a_site": {
+      "x": 88,
+      "y": 55
+    },
+    "underpass": {
+      "x": 27,
+      "y": 66
+    },
+    "apps": {
+      "x": 15,
+      "y": 48
+    },
+    "b_site": {
+      "x": 61,
+      "y": 16
+    },
+    "catwalk": {
+      "x": 91,
+      "y": 33
+    },
+    "top_mid": {
+      "x": 74,
+      "y": 44
+    },
+    "raskid": {
+      "x": 80,
+      "y": 57
+    }
+  },
+  "_comment_lineups": "type must be one of: smoke, flash, molotov, he. video is an optional YouTube EMBED url (https://youtube.com). image is an optional path/URL to a screenshot. gif works the same as image.",
+  "lineups": [
+    {
+      "id": "l001",
+      "positionId": "t_spawn",
+      "type": "smoke",
+      "title": "Смок окно инста",
+      "description": "Встаньте возле досок, прицельтесь по...",
+      "video": "",
+      "image": "images/lineups/insta1.png"
+    },
+    {
+      "id": "l002",
+      "positionId": "t_spawn",
+      "type": "smoke",
+      "title": "Смок окно инста",
+      "description": "Встаньте возле досок, прицельтесь по...",
+      "video": "",
+      "image": "images/lineups/insta2.png"
+    },
+    {
+      "id": "l003",
+      "positionId": "t_spawn",
+      "type": "smoke",
+      "title": "Смок окно инста",
+      "description": "Встаньте возле досок, прицельтесь по...",
+      "video": "",
+      "image": "images/lineups/insta3.png"
+    },
+    {
+      "id": "l004",
+      "positionId": "t_spawn",
+      "type": "smoke",
+      "title": "Смок окно инста",
+      "description": "Встаньте возле досок, прицельтесь по...",
+      "video": "",
+      "image": "images/lineups/insta4.png"
+    },
+    {
+      "id": "l005",
+      "positionId": "t_spawn",
+      "type": "smoke",
+      "title": "Смок окно инста",
+      "description": "Встаньте возле досок, прицельтесь по...",
+      "video": "",
+      "image": "images/lineups/insta5.png"
+    },
+    {
+      "id": "l006",
+      "positionId": "a_site",
+      "type": "smoke",
+      "title": "Смок джангл глубокий",
+      "description": "Встаньте возле досок, прицельтесь по...",
+      "video": "",
+      "image": "images/lineups/mirage-jungle1.png",
+      "image2": "images/lineups/example_jungle.png"
+    },
+    {
+      "id": "l007",
+      "positionId": "a_site",
+      "type": "smoke",
+      "title": "смок головы",
+      "description": "прицельтесь по ориентиру данному на фото. jump + throw",
+      "video": "",
+      "image": "images/lineups/stairs.png",
+      "image2": "images/lineups/jungle_stairs.png"
+    },
+    {
+      "id": "l008",
+      "positionId": "a_site",
+      "type": "smoke",
+      "title": "смок джангл",
+      "description": "прицельтесь по ориентиру данному на фото. jump + throw",
+      "video": "",
+      "image": "images/lineups/jungle-2.png",
+      "image2": "images/lineups/jungle_stairs.png"
+    },
+    {
+      "id": "l009",
+      "positionId": "a_site",
+      "type": "molotov",
+      "title": "молотов головы",
+      "description": "прицельтесь по ориентиру данному на фото. shift + jump + throw",
+      "video": "",
+      "image": "images/lineups/staits.png",
+      "image2": "images/lineups/stairs1.png"
+    },
+    {
+      "id": "l010",
+      "positionId": "catwalk",
+      "type": "smoke",
+      "title": "Смок начало",
+      "description": "дым который бросал сам Sh1ro! ориентир черное пятно.",
+      "video": "",
+      "image": "images/lineups/tn1r.png",
+      "image2": "images/lineups/tnir.png"
+    },
+    {
+      "id": "l011",
+      "positionId": "catwalk",
+      "type": "smoke",
+      "title": "Смок кон",
+      "description": "справа от мусокри, ориентир на фото",
+      "video": "",
+      "image": "images/lineups/trash.png",
+      "image2": "images/lineups/trash1.png"
+    },
+    {
+      "id": "l012",
+      "positionId": "palace",
+      "type": "smoke",
+      "title": "Смок на КТ из Паласов",
+      "description": "Находясь наверху лестницы в паласах, используйте ориентир по светильнику, чтобы положить дым, полностью блокирующий обзор с КТ, пока ваша команда заходит через рампу.",
+      "video": "",
+      "image": ""
+    },
+    {
+      "id": "l013",
+      "positionId": "palace",
+      "type": "molotov",
+      "title": "Молотов в Джунгли",
+      "description": "Выжигает стандартную позицию в джунглях/фаербоксе, которую любит занимать пассивный игрок защиты при медленном дефолте под А. Бросайте на бегу без остановки — четкий ориентир не нужен, просто цельтесь в куст.",
+      "video": "",
+      "image": ""
+    },
+    {
+      "id": "l014",
+      "positionId": "top_mid",
+      "type": "smoke",
+      "title": "раскид с мида",
+      "description": "да",
+      "video": "",
+      "image": "images/lineups/top.png",
+      "image2": "images/lineups/example_jungle1.png"
+    },
+    {
+      "id": "l015",
+      "positionId": "raskid",
+      "type": "molotov",
+      "title": "молик на fire",
+      "description": "подойти к доске и с шифта кинуть на левую кнопку мыши когда будешь проходить стенку кооторая подсвечена красным и только после того как прошел кидать",
+      "video": "",
+      "image": "images/lineups/fire.png",
+      "image2": "images/lineups/fire1.png",
+      "image3": "images/lineups/fire2.png",
+      "image4": "images/lineups/fire4.png"
+    },
+    {
+      "id": "l016",
+      "positionId": "top_mid",
+      "type": "smoke",
+      "title": "раскид с мида",
+      "description": "да",
+      "video": "",
+      "image": "images/lineups/top1.png",
+      "image2": "images/lineups/ticket.png"
+    },
+    {
+      "id": "l017",
+      "positionId": "a_site",
+      "type": "smoke",
+      "title": "Смок в Окно на Миду",
+      "description": "смок окно",
+      "video": "",
+      "image": ""
+    },
+    {
+      "id": "l018",
+      "positionId": "mid",
+      "type": "smoke",
+      "title": "Смок в Окно на Миду",
+      "description": "дым который бросал сам Sh1ro! ориентир черное пятно.",
+      "video": "",
+      "image": "images/lineups/sh1ro.png",
+      "image2": "images/lineups/shiro.png"
+    },
+    {
+      "id": "l019",
+      "positionId": "mid",
+      "type": "flash",
+      "title": "Флеш под себя для пика Окна",
+      "description": "Откиньте флешку рикошетом от стены над ящиками. Она ослепит вас на долю секунды меньше, чем игрока защиты в окне — отличный вариант для быстрого пика и размена.",
+      "video": "",
+      "image": ""
+    },
+    {
+      "id": "l020",
+      "positionId": "underpass",
+      "type": "smoke",
+      "title": "Смок на КТ из Подземки",
+      "description": "Блокирует зону перетяжки со спавна защиты на точку Б, позволяя вашей команде безопасно занять подземку (андер) во время быстрого захода на Б.",
+      "video": "",
+      "image": ""
+    },
+    {
+      "id": "l021",
+      "positionId": "apps",
+      "type": "molotov",
+      "title": "Молотов в окно Апартаментов Б",
+      "description": "Выжигает частую позицию опорника КТ в окне апартаментов во время захода на Б, заставляя его сменить позицию до того, как ваша команда зайдет в комнату.",
+      "video": "",
+      "image": ""
+    },
+    {
+      "id": "l022",
+      "positionId": "b_site",
+      "type": "smoke",
+      "title": "Смок арка правая",
+      "description": "смок правая аркаб, стоя + джамп троу",
+      "video": "",
+      "image": "images/lineups/arch.png",
+      "image2": "images/lineups/arch_right.png",
+      "image3": "images/lineups/right.png",
+      "image4": "images/lineups/right12.png"
+    },
+    {
+      "id": "l023",
+      "positionId": "b_site",
+      "type": "smoke",
+      "title": "Смок арка левая",
+      "description": "смок левая аркаб, сидя прицел чуть выше пятна + джамп троу",
+      "video": "",
+      "image": "images/lineups/arch.png",
+      "image2": "images/lineups/arch_left.png",
+      "image3": "images/lineups/left.png"
+    },
+    {
+      "id": "l024",
+      "positionId": "b_site",
+      "type": "flash",
+      "title": "Флеш через стену в сторону Фургона (Машины)",
+      "description": "Световая граната, летящая по высокой дуге. Она падает прямо за фургон (машину) и полностью слепит любого, кто удерживает стандартную позицию при ретейке Б.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "_comment_strategies": "Each strategy has roles (who does what) and a numbered step list. video is optional.",
+  "strategies": [
+    {
+      "id": "s001",
+      "title": "Быстрый сплит А через Паласы + Рампу",
+      "side": "T",
+      "summary": "Быстрый заход на точку, при котором атака одновременно заходит с двух входов на А. Из-за этого спецназ не может удерживать одну позицию сразу против обоих направлений.",
+      "roles": [
+        {
+          "role": "Энтри",
+          "player": "Дверь паласов, первый контакт"
+        },
+        {
+          "role": "Саппорт",
+          "player": "Раскидывает КТ + фаербокс из паласов"
+        },
+        {
+          "role": "Люркер",
+          "player": "Удерживает мид, отрезает перетяжки"
+        },
+        {
+          "role": "Авапер",
+          "player": "Рампа, выбивает снайпера на точке"
+        },
+        {
+          "role": "ИГЛ",
+          "player": "Координирует тайминги, ставит дефолт под пластик"
+        }
+      ],
+      "steps": [
+        "Саппорт дает дым на КТ из паласов ровно на 15-й секунде раунда.",
+        "Энтри-фрагер и авапер выдвигаются вместе — один из паласов, другой из рампы. Выход таймится так, чтобы они появились на точке с разницей максимум в 1 секунду.",
+        "Люркер удерживает мид, чтобы пресечь быструю перетяжку защиты через окно.",
+        "ИГЛ (капитан) ставит бомбу в дефолт (под пластик), как только точка зачищена. Команда занимает перекрестные позиции для удержания плента."
+      ],
+      "video": ""
+    },
+    {
+      "id": "s002",
+      "title": "Медленный дефолт Б через Апартаменты",
+      "side": "T",
+      "summary": "Методичное занятие Б-плента через апартаменты с использованием гранат для поиска одиночных фрагментов перед тем, как стягивать на точку основные силы.",
+      "roles": [
+        {
+          "role": "Саппорт",
+          "player": "Дает ранний молотов в окно апартаментов"
+        },
+        {
+          "role": "Энтри",
+          "player": "Зачищает апартаменты, берет контроль над окном"
+        },
+        {
+          "role": "Люркер",
+          "player": "Находится в подземке, ловит перетяжку"
+        },
+        {
+          "role": "ИГЛ",
+          "player": "Дает команду на заход, когда информация чиста"
+        }
+      ],
+      "steps": [
+        "Саппорт кидает молотов в окно апартаментов на 30-й секунде, чтобы не дать защите сделать ранний пик.",
+        "Энтри-фрагер зачищает апартаменты и докладывает информацию о том, что видно из окна.",
+        "Люркер сидит под коврами (в андере), чтобы поймать игрока КТ, перетягивающегося через мид.",
+        "По команде ИГЛа коллектив одновременно заходит через апартаменты и шорт, закрывая дымом машину (ван) при выходе."
+      ],
+      "video": ""
+    }
+  ],
+  "unsorted": [
+    "images/lineups/mirage_unsorted_1795275484560_0.png",
+    "images/lineups/mirage_unsorted_1795275479948_0.png",
+    "images/lineups/mirage_unsorted_1795275455356_1.png",
+    "images/lineups/mirage_unsorted_1795275455353_0.png",
+    "images/lineups/mirage_unsorted_1795204107979_0.png"
+  ]
+}

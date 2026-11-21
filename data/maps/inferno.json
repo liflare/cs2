@@ -1,0 +1,62 @@
+{
+  "id": "inferno",
+  "name": "Inferno",
+  "radarImage": "images/maps/inferno.svg",
+  "_comment": "Template stub -- copy the pattern from mirage.json to flesh this map out with more positions, lineups and strategies.",
+  "positions": [
+    {
+      "id": "t_spawn",
+      "name": "T Spawn"
+    },
+    {
+      "id": "banana",
+      "name": "Banana"
+    },
+    {
+      "id": "apps",
+      "name": "Apartments"
+    },
+    {
+      "id": "a_site",
+      "name": "A Site"
+    },
+    {
+      "id": "b_site",
+      "name": "B Site"
+    }
+  ],
+  "positionCoords": {
+    "t_spawn": {
+      "x": 50,
+      "y": 90
+    },
+    "banana": {
+      "x": 72,
+      "y": 55
+    },
+    "apps": {
+      "x": 30,
+      "y": 50
+    },
+    "a_site": {
+      "x": 78,
+      "y": 20
+    },
+    "b_site": {
+      "x": 20,
+      "y": 20
+    }
+  },
+  "lineups": [
+    {
+      "id": "inferno_l001",
+      "positionId": "banana",
+      "type": "smoke",
+      "title": "CT Smoke from Banana",
+      "description": "Blocks the CT sightline down banana so your team can take control without a pick from the top of the hill.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "strategies": []
+}

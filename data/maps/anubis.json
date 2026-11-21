@@ -1,0 +1,283 @@
+{
+  "id": "anubis",
+  "name": "Anubis",
+  "radarImage": "images/maps/anubis.png",
+  "_comment": "Template stub -- copy the pattern from mirage.json to flesh this map out with more positions, lineups and strategies.",
+  "positions": [
+    {
+      "id": "b_palace",
+      "name": "паласы"
+    },
+    {
+      "id": "ct_spawn",
+      "name": "CT Спавн"
+    },
+    {
+      "id": "b_con",
+      "name": "кт_кон"
+    },
+    {
+      "id": "conector",
+      "name": "конектор_т"
+    },
+    {
+      "id": "a_base",
+      "name": "А база"
+    },
+    {
+      "id": "t_spawn",
+      "name": "T Spawn"
+    },
+    {
+      "id": "canal",
+      "name": "Canal"
+    },
+    {
+      "id": "mid",
+      "name": "Mid_t"
+    },
+    {
+      "id": "mid_ct",
+      "name": "mid_ct"
+    }
+  ],
+  "positionCoords": {
+    "b_palace": {
+      "x": 25,
+      "y": 25
+    },
+    "ct_spawn": {
+      "x": 13,
+      "y": 50
+    },
+    "b_con": {
+      "x": 39,
+      "y": 59
+    },
+    "conector": {
+      "x": 50,
+      "y": 50
+    },
+    "a_base": {
+      "x": 75,
+      "y": 75
+    },
+    "t_spawn": {
+      "x": 50,
+      "y": 90
+    },
+    "canal": {
+      "x": 72,
+      "y": 55
+    },
+    "mid": {
+      "x": 50,
+      "y": 50
+    },
+    "mid_ct": {
+      "x": 42,
+      "y": 40
+    }
+  },
+  "lineups": [
+    {
+      "id": "10",
+      "positionId": "mid_ct",
+      "type": "flash",
+      "title": "флеш окно кт",
+      "description": "флеш окно от кт-стороны",
+      "video": "",
+      "image": "images/lineups/10.png",
+      "image2": "images/lineups/10_2.png"
+    },
+    {
+      "id": "9",
+      "positionId": "b_palace",
+      "type": "molotov",
+      "title": "молик паласы",
+      "description": "молик + флеш на воду все кидается с w, флеш может с небольшого шага или без него но везде нужен прыжок",
+      "video": "",
+      "image": "images/lineups/9.png",
+      "image2": "images/lineups/9_2.png"
+    },
+    {
+      "id": "8",
+      "positionId": "ct_spawn",
+      "type": "smoke",
+      "title": "смок ступеньки против т-стороны",
+      "description": "смок на ступеньки против т стороны лучше всего комбинировать с молоом на ковры",
+      "video": "",
+      "image": "images/lineups/8.png",
+      "image2": "images/lineups/8_2.png",
+      "image3": "images/lineups/8_3.png"
+    },
+    {
+      "id": "7",
+      "positionId": "b_con",
+      "type": "flash",
+      "title": "раш флеш",
+      "description": "флешка на первом тайминге нужно попросить кинуть смок стаирс и по возможности молотов на ковры",
+      "video": "",
+      "image": "images/lineups/7.png",
+      "image2": "images/lineups/7_2.png",
+      "image3": "images/lineups/7_3.png"
+    },
+    {
+      "id": "6",
+      "positionId": "mid",
+      "type": "molotov",
+      "title": "молотов окно + хае",
+      "description": "комбинация молотова и хае",
+      "video": "",
+      "image": "images/lineups/6.png",
+      "image2": "images/lineups/6_2.png"
+    },
+    {
+      "id": "5",
+      "positionId": "mid",
+      "type": "molotov",
+      "title": "молик мид",
+      "description": "молик в выход на мид на фото видно с w + jump",
+      "video": "",
+      "image": "images/lineups/5.png",
+      "image2": "images/lineups/5_2.png"
+    },
+    {
+      "id": "4",
+      "positionId": "mid",
+      "type": "flash",
+      "title": "мид флеш за т",
+      "description": "флешка ближняя и дальняя за дверь мид",
+      "video": "",
+      "image": "images/lineups/4.png",
+      "image2": "images/lineups/4_2.png",
+      "image3": "images/lineups/4_3.png"
+    },
+    {
+      "id": "3",
+      "positionId": "conector",
+      "type": "smoke",
+      "title": "конектор",
+      "description": "смок кон встать и прыжок",
+      "video": "",
+      "image": "images/lineups/3.png",
+      "image2": "images/lineups/3_2.png"
+    },
+    {
+      "id": "2",
+      "positionId": "a_base",
+      "type": "smoke",
+      "title": "Смок 9",
+      "description": "показываю куда полетели все смоки на а",
+      "video": "",
+      "image": "images/lineups/2.png",
+      "image2": "images/lineups/2_2.png"
+    },
+    {
+      "id": "1",
+      "positionId": "a_base",
+      "type": "smoke",
+      "title": "Смок хелпа",
+      "description": "раскид смока и молотова с одной позиции",
+      "video": "",
+      "image": "images/lineups/1.png",
+      "image2": "images/lineups/1_2.png"
+    },
+    {
+      "id": "anubis_l001",
+      "positionId": "canal",
+      "type": "smoke",
+      "title": "Canal Smoke to Site",
+      "description": "Blocks the site sightline from canal, letting your team push water without a trade.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "strategies": [],
+  "unsorted": [
+    "images/lineups/anubis_unsorted_1795204154312_0.png",
+    "images/lineups/anubis_unsorted_1795204043592_1.png",
+    "images/lineups/anubis_unsorted_1795204043589_0.png",
+    "images/lineups/anubis_unsorted_1795204020997_0.png",
+    "images/lineups/anubis_unsorted_1795204001752_0.png",
+    "images/lineups/anubis_unsorted_1795203985296_0.png",
+    "images/lineups/anubis_unsorted_1795203969630_0.png",
+    "images/lineups/anubis_unsorted_1795203956123_0.png",
+    "images/lineups/anubis_unsorted_1795203924936_1.png",
+    "images/lineups/anubis_unsorted_1795203924934_0.png",
+    "images/lineups/anubis_unsorted_1795203838515_65.png",
+    "images/lineups/anubis_unsorted_1795203838513_64.png",
+    "images/lineups/anubis_unsorted_1795203838511_63.png",
+    "images/lineups/anubis_unsorted_1795203838509_62.png",
+    "images/lineups/anubis_unsorted_1795203838507_61.png",
+    "images/lineups/anubis_unsorted_1795203838505_60.png",
+    "images/lineups/anubis_unsorted_1795203838502_59.png",
+    "images/lineups/anubis_unsorted_1795203838500_58.png",
+    "images/lineups/anubis_unsorted_1795203838498_57.png",
+    "images/lineups/anubis_unsorted_1795203838497_56.png",
+    "images/lineups/anubis_unsorted_1795203838494_55.png",
+    "images/lineups/anubis_unsorted_1795203838491_54.png",
+    "images/lineups/anubis_unsorted_1795203838490_53.png",
+    "images/lineups/anubis_unsorted_1795203838489_52.png",
+    "images/lineups/anubis_unsorted_1795203838487_51.png",
+    "images/lineups/anubis_unsorted_1795203838484_50.png",
+    "images/lineups/anubis_unsorted_1795203838481_49.png",
+    "images/lineups/anubis_unsorted_1795203838480_48.png",
+    "images/lineups/anubis_unsorted_1795203838479_47.png",
+    "images/lineups/anubis_unsorted_1795203838477_46.png",
+    "images/lineups/anubis_unsorted_1795203838476_45.png",
+    "images/lineups/anubis_unsorted_1795203838474_44.png",
+    "images/lineups/anubis_unsorted_1795203838473_43.png",
+    "images/lineups/anubis_unsorted_1795203838472_42.png",
+    "images/lineups/anubis_unsorted_1795203838471_41.png",
+    "images/lineups/anubis_unsorted_1795203838469_40.png",
+    "images/lineups/anubis_unsorted_1795203838468_39.png",
+    "images/lineups/anubis_unsorted_1795203838466_38.png",
+    "images/lineups/anubis_unsorted_1795203838465_37.png",
+    "images/lineups/anubis_unsorted_1795203838464_36.png",
+    "images/lineups/anubis_unsorted_1795203838463_35.png",
+    "images/lineups/anubis_unsorted_1795203838462_34.png",
+    "images/lineups/anubis_unsorted_1795203838460_33.png",
+    "images/lineups/anubis_unsorted_1795203838459_32.png",
+    "images/lineups/anubis_unsorted_1795203838457_31.png",
+    "images/lineups/anubis_unsorted_1795203838455_30.png",
+    "images/lineups/anubis_unsorted_1795203838452_29.png",
+    "images/lineups/anubis_unsorted_1795203838449_28.png",
+    "images/lineups/anubis_unsorted_1795203838448_27.png",
+    "images/lineups/anubis_unsorted_1795203838446_26.png",
+    "images/lineups/anubis_unsorted_1795203838445_25.png",
+    "images/lineups/anubis_unsorted_1795203838442_24.png",
+    "images/lineups/anubis_unsorted_1795203838442_23.png",
+    "images/lineups/anubis_unsorted_1795203838437_22.png",
+    "images/lineups/anubis_unsorted_1795203838434_21.png",
+    "images/lineups/anubis_unsorted_1795203838431_20.png",
+    "images/lineups/anubis_unsorted_1795203838429_19.png",
+    "images/lineups/anubis_unsorted_1795203838426_18.png",
+    "images/lineups/anubis_unsorted_1795203838423_17.png",
+    "images/lineups/anubis_unsorted_1795203838420_16.png",
+    "images/lineups/anubis_unsorted_1795203838419_15.png",
+    "images/lineups/anubis_unsorted_1795203838416_14.png",
+    "images/lineups/anubis_unsorted_1795203838414_13.png",
+    "images/lineups/anubis_unsorted_1795203838411_12.png",
+    "images/lineups/anubis_unsorted_1795203838408_11.png",
+    "images/lineups/anubis_unsorted_1795203838405_10.png",
+    "images/lineups/anubis_unsorted_1795203838402_9.png",
+    "images/lineups/anubis_unsorted_1795203838399_8.png",
+    "images/lineups/anubis_unsorted_1795203838395_7.png",
+    "images/lineups/anubis_unsorted_1795203838391_6.png",
+    "images/lineups/anubis_unsorted_1795203838385_5.png",
+    "images/lineups/anubis_unsorted_1795203838381_4.png",
+    "images/lineups/anubis_unsorted_1795203838376_3.png",
+    "images/lineups/anubis_unsorted_1795203838371_2.png",
+    "images/lineups/anubis_unsorted_1795203838366_1.png",
+    "images/lineups/anubis_unsorted_1795203838363_0.png",
+    "images/lineups/anubis_unsorted_1795203822476_5.png",
+    "images/lineups/anubis_unsorted_1795203822474_4.png",
+    "images/lineups/anubis_unsorted_1795203822473_3.png",
+    "images/lineups/anubis_unsorted_1795203822471_2.png",
+    "images/lineups/anubis_unsorted_1795203822469_1.png",
+    "images/lineups/anubis_unsorted_1795203822467_0.png",
+    "images/lineups/anubis_unsorted_1795203812043_0.png",
+    "images/lineups/anubis_unsorted_1795203798815_0.png"
+  ]
+}

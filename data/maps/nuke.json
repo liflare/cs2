@@ -1,0 +1,94 @@
+{
+  "id": "nuke",
+  "name": "Nuke",
+  "radarImage": "images/maps/nuke.svg",
+  "_comment": "Template stub -- copy the pattern from mirage.json to flesh this map out with more positions, lineups and strategies.",
+  "positions": [
+    {
+      "id": "t_spawn",
+      "name": "T Spawn"
+    },
+    {
+      "id": "outside",
+      "name": "Outside"
+    },
+    {
+      "id": "secret",
+      "name": "Secret"
+    },
+    {
+      "id": "a_site",
+      "name": "A Site"
+    },
+    {
+      "id": "b_site",
+      "name": "B Site (Vents)"
+    }
+  ],
+  "positionCoords": {
+    "t_spawn": {
+      "x": 50,
+      "y": 90
+    },
+    "outside": {
+      "x": 50,
+      "y": 55
+    },
+    "secret": {
+      "x": 28,
+      "y": 40
+    },
+    "a_site": {
+      "x": 60,
+      "y": 25
+    },
+    "b_site": {
+      "x": 30,
+      "y": 15
+    }
+  },
+  "lineups": [
+    {
+      "id": "nuke_l001",
+      "positionId": "outside",
+      "type": "smoke",
+      "title": "Outside Smoke to Site",
+      "description": "Blocks the ramp sightline into the site while your team pushes outside control.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "strategies": [],
+  "unsorted": [
+    "images/lineups/nuke_unsorted_1795275379652_25.png",
+    "images/lineups/nuke_unsorted_1795275379651_24.png",
+    "images/lineups/nuke_unsorted_1795275379649_23.png",
+    "images/lineups/nuke_unsorted_1795275379648_22.png",
+    "images/lineups/nuke_unsorted_1795275379646_21.png",
+    "images/lineups/nuke_unsorted_1795275379644_20.png",
+    "images/lineups/nuke_unsorted_1795275379642_19.png",
+    "images/lineups/nuke_unsorted_1795275379638_18.png",
+    "images/lineups/nuke_unsorted_1795275379636_17.png",
+    "images/lineups/nuke_unsorted_1795275379635_16.png",
+    "images/lineups/nuke_unsorted_1795275379634_15.png",
+    "images/lineups/nuke_unsorted_1795275379634_14.png",
+    "images/lineups/nuke_unsorted_1795275379632_13.png",
+    "images/lineups/nuke_unsorted_1795275379631_12.png",
+    "images/lineups/nuke_unsorted_1795275379630_11.png",
+    "images/lineups/nuke_unsorted_1795275379630_10.png",
+    "images/lineups/nuke_unsorted_1795275379629_9.png",
+    "images/lineups/nuke_unsorted_1795275379627_8.png",
+    "images/lineups/nuke_unsorted_1795275379626_7.png",
+    "images/lineups/nuke_unsorted_1795275379624_6.png",
+    "images/lineups/nuke_unsorted_1795275379623_5.png",
+    "images/lineups/nuke_unsorted_1795275379621_4.png",
+    "images/lineups/nuke_unsorted_1795275379620_3.png",
+    "images/lineups/nuke_unsorted_1795275379618_2.png",
+    "images/lineups/nuke_unsorted_1795275379615_1.png",
+    "images/lineups/nuke_unsorted_1795275379612_0.png",
+    "images/lineups/nuke_unsorted_1795275372045_3.png",
+    "images/lineups/nuke_unsorted_1795275372043_2.png",
+    "images/lineups/nuke_unsorted_1795275372042_1.png",
+    "images/lineups/nuke_unsorted_1795275372039_0.png"
+  ]
+}
